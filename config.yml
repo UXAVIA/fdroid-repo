@@ -1,0 +1,11 @@
+repo_url: https://uxavia.github.io/fdroid-repo/repo
+repo_name: Bag
+repo_description: |-
+  Official F-Droid repository for Bag — Bitcoin Portfolio Monitor for Android.
+
+archive_older: 3
+
+keystore: /tmp/fdroid-repo.jks
+keystorepass: __KEYSTOREPASS__
+keyalias: repo
+keypass: __KEYSTOREPASS__
