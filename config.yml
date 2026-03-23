@@ -3,6 +3,8 @@ repo_name: Bag
 repo_description: |-
   Official F-Droid repository for Bag — Bitcoin Portfolio Monitor for Android.
 
+repo_fingerprint: 81A0E7A78E727A39FFB1D88B0E74E5776AA65DBF7AA723A822F4AB1BCD29AE4D
+
 archive_older: 3
 
 keystore: /tmp/fdroid-repo.jks
