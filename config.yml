@@ -7,5 +7,5 @@ archive_older: 3
 
 keystore: /tmp/fdroid-repo.jks
 keystorepass: __KEYSTOREPASS__
-keyalias: repo
+repo_keyalias: repo
 keypass: __KEYSTOREPASS__
