@@ -1,0 +1,50 @@
+Categories:
+  - Money
+License: GPL-3.0-only
+WebSite: https://bitbag.app
+SourceCode: https://github.com/UXAVIA/bag
+IssueTracker: https://github.com/UXAVIA/bag/issues
+
+AutoName: Bag
+Summary: Bitcoin portfolio monitor & net worth dashboard
+Description: |-
+  Bag is a Bitcoin-only price tracker and net worth dashboard. Enter how much BTC
+  you hold and see your net worth in up to 3 selectable fiat currencies, with price
+  charts, a DCA tracker, and a home screen widget.
+
+  Bitcoin-focused, open source, and privacy-first. No ads, no analytics, no accounts.
+
+  Features:
+  * Net worth in up to 3 fiat currencies
+  * Historical price charts (1D / 1W / 1M / 1Y / ALL)
+  * DCA tracker with P&L
+  * Home screen widget
+  * Mempool fee estimates
+  * Dark and light theme
+
+  Pro (one-time purchase):
+  * Watch-only zpub wallet tracking (BIP84)
+  * Tor routing via Orbot
+  * Custom Esplora server
+  * Bitcoin Health Check (privacy scoring)
+  * Sentinel always-on monitoring
+  * Mempool fee alerts
+
+Builds:
+  - versionName: '1.0.7'
+    versionCode: 12
+    commit: v1.0.7
+    output: build/app/outputs/flutter-apk/app-release.apk
+    sudo:
+      - apt-get update
+      - apt-get install -y clang cmake ninja-build pkg-config libgtk-3-dev
+    srclibs:
+      - flutter@3.29.2
+    build:
+      - flutter pub get
+      - flutter build apk --release --dart-define=FLAVOR=direct
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0.7'
+CurrentVersionCode: 12
