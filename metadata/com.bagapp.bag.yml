@@ -6,29 +6,41 @@ SourceCode: https://github.com/UXAVIA/bag
 IssueTracker: https://github.com/UXAVIA/bag/issues
 
 AutoName: Bag
-Summary: Bitcoin portfolio monitor & net worth dashboard
+Summary: Bitcoin portfolio & net worth. No ads, no accounts.
 Description: |-
-  Bag is a Bitcoin-only price tracker and net worth dashboard. Enter how much BTC
-  you hold and see your net worth in up to 3 selectable fiat currencies, with price
-  charts, a DCA tracker, and a home screen widget.
+  Track your Bitcoin net worth in real time. Enter your BTC holdings, pick up to
+  3 fiat currencies, and watch your portfolio value update alongside live price
+  charts and a DCA tracker.
 
-  Bitcoin-focused, open source, and privacy-first. No ads, no analytics, no accounts.
+  Bitcoin-only. No altcoins. No ads. No accounts. No analytics. Your holdings
+  never leave your device.
 
-  Features:
-  * Net worth in up to 3 fiat currencies
-  * Historical price charts (1D / 1W / 1M / 1Y / ALL)
-  * DCA tracker with P&L
-  * Home screen widget
-  * Mempool fee estimates
+  FEATURES
+
+  * Net worth in up to 3 fiat currencies (USD, EUR, GBP and 50+ more)
+  * Live BTC price charts - 1D / 1W / 1M / 1Y / ALL-time
+  * DCA tracker with cost basis and P&L
+  * Home screen widget with live price and net worth
+  * Mempool fee estimates (sat/vB)
+  * Sats / BTC display toggle
   * Dark and light theme
 
-  Pro (one-time purchase):
-  * Watch-only zpub wallet tracking (BIP84)
-  * Tor routing via Orbot
-  * Custom Esplora server
-  * Bitcoin Health Check (privacy scoring)
-  * Sentinel always-on monitoring
-  * Mempool fee alerts
+  PRO - one-time purchase, no subscription
+
+  * Watch-only zpub wallet tracking (BIP84 / P2WPKH)
+  * Tor routing via Orbot for full network privacy
+  * Custom Esplora server support
+  * Bitcoin Health Check - privacy score across all wallets
+  * Sentinel: always-on balance monitoring with mempool alerts
+  * Mempool fee alerts (above/below threshold)
+
+  PRIVACY & SECURITY
+
+  Only address hashes ever reach the explorer - your zpub and balance stay
+  on-device. All network paths can be routed through Tor (Orbot required).
+  No phone-home, no telemetry, no third-party SDKs.
+
+  Open source: github.com/UXAVIA/bag
 
 AutoUpdateMode: None
 UpdateCheckMode: None
