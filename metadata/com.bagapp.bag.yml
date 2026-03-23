@@ -30,21 +30,7 @@ Description: |-
   * Sentinel always-on monitoring
   * Mempool fee alerts
 
-Builds:
-  - versionName: '1.0.7'
-    versionCode: 12
-    commit: v1.0.7
-    output: build/app/outputs/flutter-apk/app-release.apk
-    sudo:
-      - apt-get update
-      - apt-get install -y clang cmake ninja-build pkg-config libgtk-3-dev
-    srclibs:
-      - flutter@3.29.2
-    build:
-      - flutter pub get
-      - flutter build apk --release --dart-define=FLAVOR=direct
-
-AutoUpdateMode: Version
-UpdateCheckMode: Tags
+AutoUpdateMode: None
+UpdateCheckMode: None
 CurrentVersion: '1.0.7'
 CurrentVersionCode: 12
