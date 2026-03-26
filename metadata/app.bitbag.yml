@@ -44,5 +44,5 @@ Description: |-
 
 AutoUpdateMode: None
 UpdateCheckMode: None
-CurrentVersion: '1.1.1'
-CurrentVersionCode: 17
+CurrentVersion: '1.2.0'
+CurrentVersionCode: 18
