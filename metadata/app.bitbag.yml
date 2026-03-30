@@ -8,12 +8,9 @@ IssueTracker: https://github.com/UXAVIA/bag/issues
 AutoName: Bag
 Summary: Bitcoin portfolio & net worth. No ads, no accounts.
 Description: |-
-  Track your Bitcoin net worth in real time. Enter your BTC holdings, pick up to
-  3 fiat currencies, and watch your portfolio value update alongside live price
-  charts and a DCA tracker.
+  Track your Bitcoin net worth in real time. Enter your BTC holdings, pick up to 3 fiat currencies, and watch your portfolio value update alongside live price charts and a DCA tracker.
 
-  Bitcoin-only. No altcoins. No ads. No accounts. No analytics. Your holdings
-  never leave your device.
+  Bitcoin-only. No altcoins. No ads. No accounts. No analytics. Your holdings never leave your device.
 
   FEATURES
 
@@ -36,9 +33,7 @@ Description: |-
 
   PRIVACY & SECURITY
 
-  Only address hashes ever reach the explorer - your zpub and balance stay
-  on-device. All network paths can be routed through Tor (Orbot required).
-  No phone-home, no telemetry, no third-party SDKs.
+  Only address hashes ever reach the explorer - your zpub and balance stay on-device. All network paths can be routed through Tor (Orbot required). No phone-home, no telemetry, no third-party SDKs.
 
   Open source: github.com/UXAVIA/bag
 
